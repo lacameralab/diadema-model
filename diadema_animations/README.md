@@ -9,4 +9,4 @@ The three animations correspond to the main stimuli used, i.e., a $40\degree$ ba
 ### folder "trajectory_animations"
 simulations of the behavior of the model in the presence of a $40\degree$ bar, a $29\degree$ DoG and a $69\degree$ DoG (reported in the file names).
 
-Last updated: Dec 15, 2022
+(Last updated: Dec 15, 2022)
