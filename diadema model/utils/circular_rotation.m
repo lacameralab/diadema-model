@@ -7,6 +7,8 @@ function [rotated_data] = circular_rotation(data,shift)
 % Input:
 %   data: spike count matrix (e.g. spkc{1}) for pHMM, sequence matrix (e.g.
 %         seq{1}) for bHMM.
+% 
+% Tianshu Li, 2021
 
 ncol = size(data,2);
 

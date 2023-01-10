@@ -15,7 +15,7 @@ function [y] = sensitivitycurve(phi, pref_phi, a)
 %   rates. J Comput Neurosci 1: 89–107. 
 % 
 % Tianshu Li
-% Fen. 25, 2021
+% Feb. 25, 2021
 
 if nargin < 3
     a = 0.95;
