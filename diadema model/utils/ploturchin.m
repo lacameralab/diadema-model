@@ -11,6 +11,8 @@ function [h] = ploturchin(gca, stim, urchinboundary, arenaboundary, fntsz, psi)
 %       the arena). unit: degree.
 % Output:
 %   h: line and scatter handle
+% 
+% Tianshu Li, 2021
 
 if nargin < 5
     fntsz = 18;

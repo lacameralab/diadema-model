@@ -1,6 +1,6 @@
 function [stim] = creatStimulus(stim_pattern,stimwidth,stimcenter,acc)
 % [stim] = creatStimulus(stim_pattern,stimwidth,stimcenter,acc)
-% This function is used to creat stimulus for sea urchin vision simulation.
+% This function is used to create stimulus for sea urchin vision simulation.
 % Inputs:
 %   stim_pattern: string, stimulus type. Details see function
 %              stimulus_create
@@ -8,6 +8,8 @@ function [stim] = creatStimulus(stim_pattern,stimwidth,stimcenter,acc)
 %   stimcenter: the longitudinal center of stim_pattern, unit: degree, default:
 %              0 degree.
 %   acc: longitudinal bin size. unit: degree, default: 0.01 degree
+% 
+% Tianshu Li, 2021
 
 unitreflectance = 1; % scale stim.intensity, reflactance (r) = relative reflactance (rr) * unitreflectance
 
