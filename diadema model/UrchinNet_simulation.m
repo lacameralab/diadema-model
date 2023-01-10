@@ -33,10 +33,10 @@ stim.intensity = ones(size(stim.phi));
 stim.center = 0; % deg, center of stimulus
 
 if strcmp(stim_pattern,'control')
-    stim = creatStimulus('bar',10,stim.center,acc);
+    stim = createStimulus('bar',10,stim.center,acc);
     stim.intensity = 0.77*ones(size(stim.phi)); % control stimulus
 else
-    stim = creatStimulus(stim_pattern,stim.width,stim.center,acc);
+    stim = createStimulus(stim_pattern,stim.width,stim.center,acc);
 end
 
 %% figure setting

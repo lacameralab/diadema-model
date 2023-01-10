@@ -5,7 +5,7 @@
  
 clear;
 
-if ~exist('creatStimulus','file') addpath('./utils/'); end
+if ~exist('createStimulus','file') addpath('./utils/'); end
 
 %% figure setting
 col = lines;
@@ -104,7 +104,7 @@ end
 for stimcenter = 1:360
     stim.width = 2; % deg, width of the white strip
     stim.center = stimcenter; % deg, center of stimulus
-    stim = creatStimulus('bar',360-stim.width,mod(180+stim.center,360),acc); % use 360-stim.width bar to generate white strip
+    stim = createStimulus('bar',360-stim.width,mod(180+stim.center,360),acc); % use 360-stim.width bar to generate white strip
     stim.center = stimcenter; % deg, center of stimulus
     stim.intensity = stim.intensity<0.5; % set the light intensity of the black area to 0
 
