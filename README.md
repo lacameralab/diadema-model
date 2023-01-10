@@ -26,4 +26,4 @@ Contains the animations in the paper.
 
 ### Folder "stat_test_diadema_simulation"
 
-Contains the statistical test for analyzing the significance of the circular mean vector in the simulation of behavior experiment (mentioned in Fig. 4).
+Contains the statistical test for analyzing the significance of the circular mean vector in the simulation of the behavioral experiment (Fig. 4).
