@@ -34,10 +34,10 @@ stim.intensity = ones(size(stim.phi));
 stim.center = 0; % deg, center of stimulus
 
 if strcmp(stim_pattern,'control')
-    stim = creatStimulus('bar',10,stim.center,acc);
+    stim = createStimulus('bar',10,stim.center,acc);
     stim.intensity = 0.77*ones(size(stim.phi)); % control stimulus
 else
-    stim = creatStimulus(stim_pattern,stim.width,stim.center,acc);
+    stim = createStimulus(stim_pattern,stim.width,stim.center,acc);
 end
 
 %% figure setting
@@ -125,8 +125,8 @@ for ktrial = 1:Ntrials
         stim0 = stim;
         stim0.intensity = 0.77*ones(size(stim.intensity)); % control
     else
-        stim = creatStimulus(stim_pattern,stim.width,stim.center,acc);
-        stim0 = creatStimulus(stim_pattern,stim.width,0,acc);
+        stim = createStimulus(stim_pattern,stim.width,stim.center,acc);
+        stim0 = createStimulus(stim_pattern,stim.width,0,acc);
     end
 
     animal_orientation = -stim.center; % the direction where the first ambulacrum faces in arena s coordinate system (Fig. S1)
@@ -190,7 +190,7 @@ end
 %% visualize the trajectory
 figure(1); clf;
 set(gcf,'position',[89    66   845   649]);
-stim = creatStimulus(stim_pattern,stim.width,0,acc);
+stim = createStimulus(stim_pattern,stim.width,0,acc);
 if strcmp(stim_pattern,'control')
     stim.intensity  = 0.77*ones(size(stim.intensity)); % control
 end

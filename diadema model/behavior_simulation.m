@@ -27,10 +27,10 @@ stim.intensity = ones(size(stim.phi));
 stim.center = 0; % deg, center of stimulus
 
 if strcmp(stim_pattern,'control')
-    stim = creatStimulus('bar',10,stim.center,acc);
+    stim = createStimulus('bar',10,stim.center,acc);
     stim.intensity = 0.77*ones(size(stim.phi)); % control stimulus
 else
-    stim = creatStimulus(stim_pattern,stim.width,stim.center,acc);
+    stim = createStimulus(stim_pattern,stim.width,stim.center,acc);
 end
 
 %% figure setting
@@ -122,7 +122,7 @@ for kAnimal = 1:Ntrials
     if strcmp(stim_pattern,'control')
         stim.intensity = 0.72*ones(size(stim.phi)); % control stimulus
     else
-        stim = creatStimulus(stim_pattern,stim.width,stim.center,acc);
+        stim = createStimulus(stim_pattern,stim.width,stim.center,acc);
     end
 
     net = PRCoutput(net,stim);
@@ -136,7 +136,7 @@ end
 
 %% population vectors (Fig. 2C)
 figure(1); clf;
-stim = creatStimulus(stim_pattern,stim.width,0,acc);
+stim = createStimulus(stim_pattern,stim.width,0,acc);
 % threshold
 h2 = polarplot(linspace(0,2*pi,500),theta_p*ones(1,500),'linewidth',2);
 hold on;
@@ -181,7 +181,7 @@ finalP = deg2rad(finalP);
 
 figure(2); clf;
 % stimulus
-stim = creatStimulus(stim_pattern,stim.width,0,acc);
+stim = createStimulus(stim_pattern,stim.width,0,acc);
 if strcmp(stim_pattern,'control')
     stim.intensity  = 0.72*ones(size(stim.intensity)); % control
 end

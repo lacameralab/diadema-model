@@ -1,5 +1,5 @@
-function [stim] = creatStimulus(stim_pattern,stimwidth,stimcenter,acc)
-% [stim] = creatStimulus(stim_pattern,stimwidth,stimcenter,acc)
+function [stim] = createStimulus(stim_pattern,stimwidth,stimcenter,acc)
+% [stim] = createStimulus(stim_pattern,stimwidth,stimcenter,acc)
 % This function is used to create stimulus for sea urchin vision simulation.
 % Inputs:
 %   stim_pattern: string, stimulus type. Details see function
