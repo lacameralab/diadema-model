@@ -1,6 +1,6 @@
 # diadema animations
 
-This repository contains mp4 animations from [Li et al, 2022](https://www.biorxiv.org/content/10.1101/2022.05.03.490537v1).
+This repository contains mp4 animations from [Li et al, 2022](https://www.biorxiv.org/content/10.1101/2022.05.03.490537).
 
 ### folder "popvect_animations"
 animations showing neural activity and population vector as a function of the relative orientation of the sea urchin and the center of the stimulus.
