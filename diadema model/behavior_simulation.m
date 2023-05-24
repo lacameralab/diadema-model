@@ -117,8 +117,8 @@ vpop_amplitude = zeros(Ntrials,1); % |v_pop|, amplitude of the population vector
 vpop_direction = vpop_amplitude; % <v_pop>, direction of the population vector
 theta_p = 5; % if the length of vpop (population vector) is less than this threshold, the animal moves randomly
 
-for kAnimal = 1:Ntrials
-    stim.center = stimcenters(kAnimal); % deg, center of stimulus
+for ktrial = 1:Ntrials
+    stim.center = stimcenters(ktrial); % deg, center of stimulus
     if strcmp(stim_pattern,'control')
         stim.intensity = 0.72*ones(size(stim.phi)); % control stimulus
     else
@@ -130,8 +130,8 @@ for kAnimal = 1:Ntrials
     [net.ONR] = ONRoutput(net);
 
     vpop = sum((net.ONR.out).*(cosd(net.ONR.phi_pref) + sind(net.ONR.phi_pref)*1i))/sqrt(net.ONR.nCell); % estimated direction of light by the animal, vpop is written as a complex number to represent a vector in Cartesian space.
-    vpop_amplitude(kAnimal) = abs(vpop);
-    vpop_direction(kAnimal) = mod(-stimcenters(kAnimal)+rad2deg(angle(vpop)),360); % movement direction
+    vpop_amplitude(ktrial) = abs(vpop);
+    vpop_direction(ktrial) = mod(-stimcenters(ktrial)+rad2deg(angle(vpop)),360); % movement direction
 end
 
 %% population vectors (Fig. 2C)
