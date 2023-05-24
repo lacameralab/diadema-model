@@ -111,7 +111,7 @@ net.param.xc_ONR = xc_ONR;
 % orientation in the center of the arena in each trial, which was the case
 % in experiment.
 % See section A.2 and Fig. S1 for detail.
-Ntrials = 100; % number of animals
+Ntrials = 100; % number of trials
 stimcenters = 360*rand([1,Ntrials]); % psi, the center of stimulus with respect to the animal
 vpop_amplitude = zeros(Ntrials,1); % |v_pop|, amplitude of the population vector
 vpop_direction = vpop_amplitude; % <v_pop>, direction of the population vector
