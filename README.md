@@ -1,6 +1,11 @@
 # Diadema vision model
 
-This repository contains the code used in [Li et al, 2023](https://www.cell.com/iscience/fulltext/S2589-0042(23)00372-3),[Li et al, 2022](https://www.biorxiv.org/content/10.1101/2022.05.03.490537).
+This repository contains the code used in 
+ 
+  T. Li, J. Kirwan, M.I. Arnone, D.E. Nilsson and G. La Camera
+  [A model of decentralized vision in the sea urchin Diadema africanum](https://www.cell.com/iscience/fulltext/S2589-0042(23)00372-3)
+  iScience, 26(4):106295, 2023
+  (See also [Li et al, 2022](https://www.biorxiv.org/content/10.1101/2022.05.03.490537))
 
 ### Folder "diadema model"
 
