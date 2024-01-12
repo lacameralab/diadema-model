@@ -1,7 +1,9 @@
 # diadema animations
 
-This repository contains mp4 animations from T. Li, J. Kirwan, M.I. Arnone, D.E. Nilsson and G. La Camera,
-  [A model of decentralized vision in the sea urchin Diadema africanum](https://www.cell.com/iscience/fulltext/S2589-0042(23)00372-3),
+This repository contains mp4 animations from 
+
+T. Li, J. Kirwan, M.I. Arnone, D.E. Nilsson and G. La Camera,\
+  [A model of decentralized vision in the sea urchin Diadema africanum](https://www.cell.com/iscience/fulltext/S2589-0042(23)00372-3), \
   iScience, 26(4):106295, 2023
 
 ### folder "popvect_animations"
