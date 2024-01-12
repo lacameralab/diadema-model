@@ -2,7 +2,7 @@
 
 This foder contains custom MATLAB code used in 
 T. Li, J. Kirwan, M.I. Arnone, D.E. Nilsson and G. La Camera\
-[A model of decentralized vision in the sea urchin Diadema africanum](https://www.cell.com/iscience/fulltext/S2589-0042(23)00372-3)\ 
+[A model of decentralized vision in the sea urchin Diadema africanum](https://www.cell.com/iscience/fulltext/S2589-0042(23)00372-3) \
 iScience, 26(4):106295, 2023
 
 **UrchinNet_simulation.m** shows how to build the model and run a simulation for one trial.
